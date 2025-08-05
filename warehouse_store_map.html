@@ -1,0 +1,2875 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_89c4c61839064fbc1ce4807123c17de0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_89c4c61839064fbc1ce4807123c17de0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_89c4c61839064fbc1ce4807123c17de0 = L.map(
+                "map_89c4c61839064fbc1ce4807123c17de0",
+                {
+                    center: [59.00018055555555, 25.281770833333333],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f0448e5296d86d1d4d0c52a7670c945c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f0448e5296d86d1d4d0c52a7670c945c.addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var marker_ab7deffdb6da580255904da97c9e63bd = L.marker(
+                [59.00018055555555, 25.281770833333333],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_ee82cdbf2f041dd15d0019200b18c789 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f4478685704c8e91754d8551e791775 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7184c32ec9d875ddcfecb16951b1bbc1 = $(`<div id="html_7184c32ec9d875ddcfecb16951b1bbc1" style="width: 100.0%; height: 100.0%;">Warehouse</div>`)[0];
+                popup_1f4478685704c8e91754d8551e791775.setContent(html_7184c32ec9d875ddcfecb16951b1bbc1);
+            
+        
+
+        marker_ab7deffdb6da580255904da97c9e63bd.bindPopup(popup_1f4478685704c8e91754d8551e791775)
+        ;
+
+        
+    
+    
+                marker_ab7deffdb6da580255904da97c9e63bd.setIcon(icon_ee82cdbf2f041dd15d0019200b18c789);
+            
+    
+            var marker_b574502eb157052cbb1fe37c64081b7f = L.marker(
+                [59.441, 24.728],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_bd21e8440eeddca29394afbb077d91a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a2a24ff0c4b4fe71474f8c68d147602 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b8b215c72a1b152e1d11713d5a752b4 = $(`<div id="html_1b8b215c72a1b152e1d11713d5a752b4" style="width: 100.0%; height: 100.0%;">Arsenali Selver (58.27 km)</div>`)[0];
+                popup_0a2a24ff0c4b4fe71474f8c68d147602.setContent(html_1b8b215c72a1b152e1d11713d5a752b4);
+            
+        
+
+        marker_b574502eb157052cbb1fe37c64081b7f.bindPopup(popup_0a2a24ff0c4b4fe71474f8c68d147602)
+        ;
+
+        
+    
+    
+                marker_b574502eb157052cbb1fe37c64081b7f.setIcon(icon_bd21e8440eeddca29394afbb077d91a3);
+            
+    
+            var marker_c63432d1e8da9443857bb53b4b401032 = L.marker(
+                [59.4385, 24.736],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_2cf9baa0431c63500a466c7a95fe0603 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e9779e95c00a7a90e6334707eeb88ce9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3440f6c23357558f4d77d1380d8c65fe = $(`<div id="html_3440f6c23357558f4d77d1380d8c65fe" style="width: 100.0%; height: 100.0%;">Balti jaama Selver ABC (57.79 km)</div>`)[0];
+                popup_e9779e95c00a7a90e6334707eeb88ce9.setContent(html_3440f6c23357558f4d77d1380d8c65fe);
+            
+        
+
+        marker_c63432d1e8da9443857bb53b4b401032.bindPopup(popup_e9779e95c00a7a90e6334707eeb88ce9)
+        ;
+
+        
+    
+    
+                marker_c63432d1e8da9443857bb53b4b401032.setIcon(icon_2cf9baa0431c63500a466c7a95fe0603);
+            
+    
+            var marker_a17e5487394b8a9691d27b3d3e613461 = L.marker(
+                [59.438, 24.7365],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_8ec004f11538648014263fa9a7bc4b8c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_63cad3e1c671b551e293b8436fcb0baf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43a8322c849d4e82a6dfb02bc3dbdd37 = $(`<div id="html_43a8322c849d4e82a6dfb02bc3dbdd37" style="width: 100.0%; height: 100.0%;">Balti jaama turu Selver (57.73 km)</div>`)[0];
+                popup_63cad3e1c671b551e293b8436fcb0baf.setContent(html_43a8322c849d4e82a6dfb02bc3dbdd37);
+            
+        
+
+        marker_a17e5487394b8a9691d27b3d3e613461.bindPopup(popup_63cad3e1c671b551e293b8436fcb0baf)
+        ;
+
+        
+    
+    
+                marker_a17e5487394b8a9691d27b3d3e613461.setIcon(icon_8ec004f11538648014263fa9a7bc4b8c);
+            
+    
+            var marker_afa87b3491df8bca2f8bbf5b21050439 = L.marker(
+                [59.3933, 24.7202],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_ce036041d64c64bd5d1d97a9f10e1175 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95a12db85f0a4a948e27c55fb4bd623c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8c9b42d366a2cec35ff1492248d08b5 = $(`<div id="html_b8c9b42d366a2cec35ff1492248d08b5" style="width: 100.0%; height: 100.0%;">Järve Selver (54.16 km)</div>`)[0];
+                popup_95a12db85f0a4a948e27c55fb4bd623c.setContent(html_b8c9b42d366a2cec35ff1492248d08b5);
+            
+        
+
+        marker_afa87b3491df8bca2f8bbf5b21050439.bindPopup(popup_95a12db85f0a4a948e27c55fb4bd623c)
+        ;
+
+        
+    
+    
+                marker_afa87b3491df8bca2f8bbf5b21050439.setIcon(icon_ce036041d64c64bd5d1d97a9f10e1175);
+            
+    
+            var marker_023645f7aca519eee82b0861fabf8df6 = L.marker(
+                [59.4124, 24.6673],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_f4d471da5e35655776ddd76756c587dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_162e8df8060067dd9ffe22c3b231f1e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c5b27ba7d4f58341c8e5f755dbd0034 = $(`<div id="html_5c5b27ba7d4f58341c8e5f755dbd0034" style="width: 100.0%; height: 100.0%;">Kadaka Selver (57.66 km)</div>`)[0];
+                popup_162e8df8060067dd9ffe22c3b231f1e9.setContent(html_5c5b27ba7d4f58341c8e5f755dbd0034);
+            
+        
+
+        marker_023645f7aca519eee82b0861fabf8df6.bindPopup(popup_162e8df8060067dd9ffe22c3b231f1e9)
+        ;
+
+        
+    
+    
+                marker_023645f7aca519eee82b0861fabf8df6.setIcon(icon_f4d471da5e35655776ddd76756c587dd);
+            
+    
+            var marker_db24f590778579a8a839d38809daadf3 = L.marker(
+                [59.4374, 24.754],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_ed27394dd074789b39be0fe35110a48c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20b7665f231c22ef99430e944f094579 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c9a01a265f1de8138f0e37ca3fd42ab = $(`<div id="html_2c9a01a265f1de8138f0e37ca3fd42ab" style="width: 100.0%; height: 100.0%;">Kadrioru Selver ABC (57.14 km)</div>`)[0];
+                popup_20b7665f231c22ef99430e944f094579.setContent(html_2c9a01a265f1de8138f0e37ca3fd42ab);
+            
+        
+
+        marker_db24f590778579a8a839d38809daadf3.bindPopup(popup_20b7665f231c22ef99430e944f094579)
+        ;
+
+        
+    
+    
+                marker_db24f590778579a8a839d38809daadf3.setIcon(icon_ed27394dd074789b39be0fe35110a48c);
+            
+    
+            var marker_6c1ce1505be9d84f72bfea356025ab3e = L.marker(
+                [59.4282, 24.627],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_873a20b789ac3be4f02801ea6aceb367 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fce979c3bdb877f46537d9e33d21f918 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f62441c4ee1350f94b833cca33e1ab2d = $(`<div id="html_f62441c4ee1350f94b833cca33e1ab2d" style="width: 100.0%; height: 100.0%;">Kakumäe Selver (60.45 km)</div>`)[0];
+                popup_fce979c3bdb877f46537d9e33d21f918.setContent(html_f62441c4ee1350f94b833cca33e1ab2d);
+            
+        
+
+        marker_6c1ce1505be9d84f72bfea356025ab3e.bindPopup(popup_fce979c3bdb877f46537d9e33d21f918)
+        ;
+
+        
+    
+    
+                marker_6c1ce1505be9d84f72bfea356025ab3e.setIcon(icon_873a20b789ac3be4f02801ea6aceb367);
+            
+    
+            var marker_b6e15c70f551bfbd5b35e13105cd9acc = L.marker(
+                [59.4415, 24.712],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_043227a324044bdd01c01c35d5213417 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cd5ca19abfe37434c9ad58db3e70a214 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c45a0ecd31a082cab8599ae2d6f8219 = $(`<div id="html_0c45a0ecd31a082cab8599ae2d6f8219" style="width: 100.0%; height: 100.0%;">Kolde Selver (58.81 km)</div>`)[0];
+                popup_cd5ca19abfe37434c9ad58db3e70a214.setContent(html_0c45a0ecd31a082cab8599ae2d6f8219);
+            
+        
+
+        marker_b6e15c70f551bfbd5b35e13105cd9acc.bindPopup(popup_cd5ca19abfe37434c9ad58db3e70a214)
+        ;
+
+        
+    
+    
+                marker_b6e15c70f551bfbd5b35e13105cd9acc.setIcon(icon_043227a324044bdd01c01c35d5213417);
+            
+    
+            var marker_ba3a32d2a6cfdde08815cd57dd62d7c8 = L.marker(
+                [59.428, 24.728],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_bb8fb2304d879a79450474008e67be40 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f95bbb33277ecb013b2df6cd7e4dec6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce40f5f8546d536455a0d08baadb39cd = $(`<div id="html_ce40f5f8546d536455a0d08baadb39cd" style="width: 100.0%; height: 100.0%;">Kotka Selver ABC (57.06 km)</div>`)[0];
+                popup_6f95bbb33277ecb013b2df6cd7e4dec6.setContent(html_ce40f5f8546d536455a0d08baadb39cd);
+            
+        
+
+        marker_ba3a32d2a6cfdde08815cd57dd62d7c8.bindPopup(popup_6f95bbb33277ecb013b2df6cd7e4dec6)
+        ;
+
+        
+    
+    
+                marker_ba3a32d2a6cfdde08815cd57dd62d7c8.setIcon(icon_bb8fb2304d879a79450474008e67be40);
+            
+    
+            var marker_364df7e39f1eead6615069359b4dcef3 = L.marker(
+                [59.4369, 24.7451],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_8463c743cb3c0aebb5a007920249381c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1faa9bd1a093bce6ca2fc59cfbc754d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47128bdadcabc81e494ce853171e79ff = $(`<div id="html_47128bdadcabc81e494ce853171e79ff" style="width: 100.0%; height: 100.0%;">Kreutzwaldi Selver ABC (57.37 km)</div>`)[0];
+                popup_1faa9bd1a093bce6ca2fc59cfbc754d5.setContent(html_47128bdadcabc81e494ce853171e79ff);
+            
+        
+
+        marker_364df7e39f1eead6615069359b4dcef3.bindPopup(popup_1faa9bd1a093bce6ca2fc59cfbc754d5)
+        ;
+
+        
+    
+    
+                marker_364df7e39f1eead6615069359b4dcef3.setIcon(icon_8463c743cb3c0aebb5a007920249381c);
+            
+    
+            var marker_eaaac2c2d3cea87cff21a056cd7169c1 = L.marker(
+                [59.448, 24.88],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_b6f40361ddf4bd2d3c18df48a7cf37d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a745e6e6ada62d3f4b570a2fb166fd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c9d72fc92245212431effb2d4cb8051 = $(`<div id="html_9c9d72fc92245212431effb2d4cb8051" style="width: 100.0%; height: 100.0%;">Kärberi Selver (54.79 km)</div>`)[0];
+                popup_7a745e6e6ada62d3f4b570a2fb166fd5.setContent(html_9c9d72fc92245212431effb2d4cb8051);
+            
+        
+
+        marker_eaaac2c2d3cea87cff21a056cd7169c1.bindPopup(popup_7a745e6e6ada62d3f4b570a2fb166fd5)
+        ;
+
+        
+    
+    
+                marker_eaaac2c2d3cea87cff21a056cd7169c1.setIcon(icon_b6f40361ddf4bd2d3c18df48a7cf37d3);
+            
+    
+            var marker_33b228395796845674383c0b41f50a81 = L.marker(
+                [59.353, 24.6283],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_af0a534b49f7f465158542e015615664 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e2598e32d543e755579c5fb6803a893 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a33fcad7b2d502acd274ca5b666da75c = $(`<div id="html_a33fcad7b2d502acd274ca5b666da75c" style="width: 100.0%; height: 100.0%;">Laagri Selver (54.09 km)</div>`)[0];
+                popup_6e2598e32d543e755579c5fb6803a893.setContent(html_a33fcad7b2d502acd274ca5b666da75c);
+            
+        
+
+        marker_33b228395796845674383c0b41f50a81.bindPopup(popup_6e2598e32d543e755579c5fb6803a893)
+        ;
+
+        
+    
+    
+                marker_33b228395796845674383c0b41f50a81.setIcon(icon_af0a534b49f7f465158542e015615664);
+            
+    
+            var marker_bf5625fc0ed7e258a95eedcfa63c5a9f = L.marker(
+                [59.4362, 24.7471],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_2a35a303998ada2ed73ffe992b35e744 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4394b58d2cc94735e5d0c7fef37424a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b1d060e8feb476c6ed74b5465ece3fb = $(`<div id="html_6b1d060e8feb476c6ed74b5465ece3fb" style="width: 100.0%; height: 100.0%;">Liivalaia Selver ABC (57.24 km)</div>`)[0];
+                popup_a4394b58d2cc94735e5d0c7fef37424a.setContent(html_6b1d060e8feb476c6ed74b5465ece3fb);
+            
+        
+
+        marker_bf5625fc0ed7e258a95eedcfa63c5a9f.bindPopup(popup_a4394b58d2cc94735e5d0c7fef37424a)
+        ;
+
+        
+    
+    
+                marker_bf5625fc0ed7e258a95eedcfa63c5a9f.setIcon(icon_2a35a303998ada2ed73ffe992b35e744);
+            
+    
+            var marker_610c5bd51a90e2a74a96c529f2efcd37 = L.marker(
+                [59.4529, 24.8747],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_62bdaeed1e4e8d88a9e272357f563a69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d1e9f368bc81710c88e8b0168f15bfbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acd76cb329b8ae4882c8207ab27ca845 = $(`<div id="html_acd76cb329b8ae4882c8207ab27ca845" style="width: 100.0%; height: 100.0%;">Läänemere Selver (55.41 km)</div>`)[0];
+                popup_d1e9f368bc81710c88e8b0168f15bfbe.setContent(html_acd76cb329b8ae4882c8207ab27ca845);
+            
+        
+
+        marker_610c5bd51a90e2a74a96c529f2efcd37.bindPopup(popup_d1e9f368bc81710c88e8b0168f15bfbe)
+        ;
+
+        
+    
+    
+                marker_610c5bd51a90e2a74a96c529f2efcd37.setIcon(icon_62bdaeed1e4e8d88a9e272357f563a69);
+            
+    
+            var marker_dc2dc126ea659c9349bff1dd0f2fd83c = L.marker(
+                [59.4224, 24.6972],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_dd6df7e227e125baeba87f2fab325e6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_586ee7721d96a85550b34b7a48e35cde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_531240fe5fa4c4ce6dad23b9d9fd8e3b = $(`<div id="html_531240fe5fa4c4ce6dad23b9d9fd8e3b" style="width: 100.0%; height: 100.0%;">Marienthali Selver (57.54 km)</div>`)[0];
+                popup_586ee7721d96a85550b34b7a48e35cde.setContent(html_531240fe5fa4c4ce6dad23b9d9fd8e3b);
+            
+        
+
+        marker_dc2dc126ea659c9349bff1dd0f2fd83c.bindPopup(popup_586ee7721d96a85550b34b7a48e35cde)
+        ;
+
+        
+    
+    
+                marker_dc2dc126ea659c9349bff1dd0f2fd83c.setIcon(icon_dd6df7e227e125baeba87f2fab325e6e);
+            
+    
+            var marker_6c054264e205c82d4264ee8e72b8272d = L.marker(
+                [59.438, 24.698],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_5a64b1169c98a82f75f8efa83616a670 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d20324aad91aa51a1cd236456206df39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4580219ef266df3bea6c2e83f6afa5a = $(`<div id="html_b4580219ef266df3bea6c2e83f6afa5a" style="width: 100.0%; height: 100.0%;">Merimetsa Selver (58.94 km)</div>`)[0];
+                popup_d20324aad91aa51a1cd236456206df39.setContent(html_b4580219ef266df3bea6c2e83f6afa5a);
+            
+        
+
+        marker_6c054264e205c82d4264ee8e72b8272d.bindPopup(popup_d20324aad91aa51a1cd236456206df39)
+        ;
+
+        
+    
+    
+                marker_6c054264e205c82d4264ee8e72b8272d.setIcon(icon_5a64b1169c98a82f75f8efa83616a670);
+            
+    
+            var marker_a5c34ad4c9e122eeafccd35178fe1c8f = L.marker(
+                [59.45, 24.88],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_a40c477464a380cbc1c65d3bdd5c2ba7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc769ad004fe8c87c8db483e4428f43e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c1ae1866b7dde43d34f97dd0066c7d6 = $(`<div id="html_9c1ae1866b7dde43d34f97dd0066c7d6" style="width: 100.0%; height: 100.0%;">Mustakivi Selver (54.99 km)</div>`)[0];
+                popup_dc769ad004fe8c87c8db483e4428f43e.setContent(html_9c1ae1866b7dde43d34f97dd0066c7d6);
+            
+        
+
+        marker_a5c34ad4c9e122eeafccd35178fe1c8f.bindPopup(popup_dc769ad004fe8c87c8db483e4428f43e)
+        ;
+
+        
+    
+    
+                marker_a5c34ad4c9e122eeafccd35178fe1c8f.setIcon(icon_a40c477464a380cbc1c65d3bdd5c2ba7);
+            
+    
+            var marker_a75c00cce97aae11ebf265e307cce35b = L.marker(
+                [59.394, 24.685],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_4a7778f5c46bfb762761e29789701d8b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e015df8476f6f1cbde92f6f4f0a58dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0139d27ccd9e16059c33d4490ce52062 = $(`<div id="html_0139d27ccd9e16059c33d4490ce52062" style="width: 100.0%; height: 100.0%;">Nõmme Selver ABC (55.43 km)</div>`)[0];
+                popup_4e015df8476f6f1cbde92f6f4f0a58dc.setContent(html_0139d27ccd9e16059c33d4490ce52062);
+            
+        
+
+        marker_a75c00cce97aae11ebf265e307cce35b.bindPopup(popup_4e015df8476f6f1cbde92f6f4f0a58dc)
+        ;
+
+        
+    
+    
+                marker_a75c00cce97aae11ebf265e307cce35b.setIcon(icon_4a7778f5c46bfb762761e29789701d8b);
+            
+    
+            var marker_9b9006894f448ea7d82f2557525cd2cd = L.marker(
+                [59.4385, 24.713],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_9b343688bed97894a9d66d46770fb75b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dbf50125f400335f86e4829ffe222b42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_458cec7f9e6922cacbc18cba2c552623 = $(`<div id="html_458cec7f9e6922cacbc18cba2c552623" style="width: 100.0%; height: 100.0%;">Pelgulinna Selver (58.51 km)</div>`)[0];
+                popup_dbf50125f400335f86e4829ffe222b42.setContent(html_458cec7f9e6922cacbc18cba2c552623);
+            
+        
+
+        marker_9b9006894f448ea7d82f2557525cd2cd.bindPopup(popup_dbf50125f400335f86e4829ffe222b42)
+        ;
+
+        
+    
+    
+                marker_9b9006894f448ea7d82f2557525cd2cd.setIcon(icon_9b343688bed97894a9d66d46770fb75b);
+            
+    
+            var marker_b6ad35f952cb5fdf6a0653497b4e0399 = L.marker(
+                [59.47, 24.83],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_64cbffa7a93d070b505c02986d9decd1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3923afea7eb53d1f2aaad0e18a4e1ada = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3005de99e9cb843950ea99c8886f441 = $(`<div id="html_e3005de99e9cb843950ea99c8886f441" style="width: 100.0%; height: 100.0%;">Pirita Selver (58.22 km)</div>`)[0];
+                popup_3923afea7eb53d1f2aaad0e18a4e1ada.setContent(html_e3005de99e9cb843950ea99c8886f441);
+            
+        
+
+        marker_b6ad35f952cb5fdf6a0653497b4e0399.bindPopup(popup_3923afea7eb53d1f2aaad0e18a4e1ada)
+        ;
+
+        
+    
+    
+                marker_b6ad35f952cb5fdf6a0653497b4e0399.setIcon(icon_64cbffa7a93d070b505c02986d9decd1);
+            
+    
+            var marker_2102bf018f2c96c7e4dbe014f5e34dc9 = L.marker(
+                [59.45, 24.89],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_23a4a23e97483b4ac81fd0c946659bb0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b2fdaf41a91c8bdc9e61fa42fdae832c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0786ca943c80e94430aef0974c5e79ba = $(`<div id="html_0786ca943c80e94430aef0974c5e79ba" style="width: 100.0%; height: 100.0%;">Priisle Selver (54.76 km)</div>`)[0];
+                popup_b2fdaf41a91c8bdc9e61fa42fdae832c.setContent(html_0786ca943c80e94430aef0974c5e79ba);
+            
+        
+
+        marker_2102bf018f2c96c7e4dbe014f5e34dc9.bindPopup(popup_b2fdaf41a91c8bdc9e61fa42fdae832c)
+        ;
+
+        
+    
+    
+                marker_2102bf018f2c96c7e4dbe014f5e34dc9.setIcon(icon_23a4a23e97483b4ac81fd0c946659bb0);
+            
+    
+            var marker_c8bbbf83c3afb9f024ef7eb1a52d79ee = L.marker(
+                [59.437, 24.728],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_76813caeee88e9c698bb419343a92ad9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc250f6005ad9d8e95134f693d22c94b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7332c7bae320b7c9ffcb99ad608dabf6 = $(`<div id="html_7332c7bae320b7c9ffcb99ad608dabf6" style="width: 100.0%; height: 100.0%;">Ristiku Selver ABC (57.9 km)</div>`)[0];
+                popup_dc250f6005ad9d8e95134f693d22c94b.setContent(html_7332c7bae320b7c9ffcb99ad608dabf6);
+            
+        
+
+        marker_c8bbbf83c3afb9f024ef7eb1a52d79ee.bindPopup(popup_dc250f6005ad9d8e95134f693d22c94b)
+        ;
+
+        
+    
+    
+                marker_c8bbbf83c3afb9f024ef7eb1a52d79ee.setIcon(icon_76813caeee88e9c698bb419343a92ad9);
+            
+    
+            var marker_606cafee75bd71628b7d5a53c7c556ad = L.marker(
+                [59.43, 24.66],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_f2428c49084598d5d07f251282849401 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f71d060e86782bc28fcee866fa678f65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55613de9da7505f64387ce5ae440a70f = $(`<div id="html_55613de9da7505f64387ce5ae440a70f" style="width: 100.0%; height: 100.0%;">Rocca al Mare Selver (59.47 km)</div>`)[0];
+                popup_f71d060e86782bc28fcee866fa678f65.setContent(html_55613de9da7505f64387ce5ae440a70f);
+            
+        
+
+        marker_606cafee75bd71628b7d5a53c7c556ad.bindPopup(popup_f71d060e86782bc28fcee866fa678f65)
+        ;
+
+        
+    
+    
+                marker_606cafee75bd71628b7d5a53c7c556ad.setIcon(icon_f2428c49084598d5d07f251282849401);
+            
+    
+            var marker_67a5d043db79af07a019baac3c67e088 = L.marker(
+                [59.421, 24.799],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_27f9a7560525d118d1231e4216648a8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91f4c18efaf5c6a437114d4877091d4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_389814e51b540e6777dba70817c237fb = $(`<div id="html_389814e51b540e6777dba70817c237fb" style="width: 100.0%; height: 100.0%;">Sepapaja Selver ABC (54.26 km)</div>`)[0];
+                popup_91f4c18efaf5c6a437114d4877091d4f.setContent(html_389814e51b540e6777dba70817c237fb);
+            
+        
+
+        marker_67a5d043db79af07a019baac3c67e088.bindPopup(popup_91f4c18efaf5c6a437114d4877091d4f)
+        ;
+
+        
+    
+    
+                marker_67a5d043db79af07a019baac3c67e088.setIcon(icon_27f9a7560525d118d1231e4216648a8a);
+            
+    
+            var marker_5e23f96033fd51d8d2efe685facebb16 = L.marker(
+                [59.4215, 24.799],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_2ca3651c895bc31d7817486eb98f422c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_46e2190ce9551726ec7cba9995e521b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df570dedeb4173bd089fa7b2294b20cb = $(`<div id="html_df570dedeb4173bd089fa7b2294b20cb" style="width: 100.0%; height: 100.0%;">T1 Selver (54.31 km)</div>`)[0];
+                popup_46e2190ce9551726ec7cba9995e521b4.setContent(html_df570dedeb4173bd089fa7b2294b20cb);
+            
+        
+
+        marker_5e23f96033fd51d8d2efe685facebb16.bindPopup(popup_46e2190ce9551726ec7cba9995e521b4)
+        ;
+
+        
+    
+    
+                marker_5e23f96033fd51d8d2efe685facebb16.setIcon(icon_2ca3651c895bc31d7817486eb98f422c);
+            
+    
+            var marker_014b7e9c69bd09fcc51f0aae4c0ba26d = L.marker(
+                [59.4145, 24.7421],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_58579110a427ebef22dc14652b3fbbe5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_74a11d0878b9ef638c46cfab5060e2b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d986441c3a92ccaa640bc3bc5d968237 = $(`<div id="html_d986441c3a92ccaa640bc3bc5d968237" style="width: 100.0%; height: 100.0%;">Tondi Selver (55.37 km)</div>`)[0];
+                popup_74a11d0878b9ef638c46cfab5060e2b0.setContent(html_d986441c3a92ccaa640bc3bc5d968237);
+            
+        
+
+        marker_014b7e9c69bd09fcc51f0aae4c0ba26d.bindPopup(popup_74a11d0878b9ef638c46cfab5060e2b0)
+        ;
+
+        
+    
+    
+                marker_014b7e9c69bd09fcc51f0aae4c0ba26d.setIcon(icon_58579110a427ebef22dc14652b3fbbe5);
+            
+    
+            var marker_d1bf595b6735d21c971c929b33b333fb = L.marker(
+                [59.4281, 24.7482],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_cd36cd6c65b4bda57a8611c158e3e3bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d962e0f4962579e4bb90060efc4e9e3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d70a7fbf5e696b8747a4e059c72101d7 = $(`<div id="html_d70a7fbf5e696b8747a4e059c72101d7" style="width: 100.0%; height: 100.0%;">Torupilli Selver (56.45 km)</div>`)[0];
+                popup_d962e0f4962579e4bb90060efc4e9e3a.setContent(html_d70a7fbf5e696b8747a4e059c72101d7);
+            
+        
+
+        marker_d1bf595b6735d21c971c929b33b333fb.bindPopup(popup_d962e0f4962579e4bb90060efc4e9e3a)
+        ;
+
+        
+    
+    
+                marker_d1bf595b6735d21c971c929b33b333fb.setIcon(icon_cd36cd6c65b4bda57a8611c158e3e3bf);
+            
+    
+            var marker_c1283db91279532b097869be8d26d8d7 = L.marker(
+                [59.45, 24.88],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_7238ee346d5ceae5d51c2017f483bde8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76d3e626ec10d06cdde80b435fe40767 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4de45b767b9c4b7ec6b15365edf9135 = $(`<div id="html_d4de45b767b9c4b7ec6b15365edf9135" style="width: 100.0%; height: 100.0%;">Tähesaju Selver (54.99 km)</div>`)[0];
+                popup_76d3e626ec10d06cdde80b435fe40767.setContent(html_d4de45b767b9c4b7ec6b15365edf9135);
+            
+        
+
+        marker_c1283db91279532b097869be8d26d8d7.bindPopup(popup_76d3e626ec10d06cdde80b435fe40767)
+        ;
+
+        
+    
+    
+                marker_c1283db91279532b097869be8d26d8d7.setIcon(icon_7238ee346d5ceae5d51c2017f483bde8);
+            
+    
+            var marker_e04ca8304d3fa181f9789a29ed0106c6 = L.marker(
+                [59.4363, 24.7387],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_31399601ee13ac761fc6ff431735399d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7ff17767fd8f8ae42c662e9a48ac19e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f497ee53364ebdfa81d24faae4c75fca = $(`<div id="html_f497ee53364ebdfa81d24faae4c75fca" style="width: 100.0%; height: 100.0%;">Valdeku Selver ABC (57.5 km)</div>`)[0];
+                popup_a7ff17767fd8f8ae42c662e9a48ac19e.setContent(html_f497ee53364ebdfa81d24faae4c75fca);
+            
+        
+
+        marker_e04ca8304d3fa181f9789a29ed0106c6.bindPopup(popup_a7ff17767fd8f8ae42c662e9a48ac19e)
+        ;
+
+        
+    
+    
+                marker_e04ca8304d3fa181f9789a29ed0106c6.setIcon(icon_31399601ee13ac761fc6ff431735399d);
+            
+    
+            var marker_bbe5ef9c46ae1c41ab26cb4daeee1c10 = L.marker(
+                [58.3636, 26.7137],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_e6e6ea6305d0b46fa3095026108b6da8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b31de44b0200ec84b325b0df676db9e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa90053c05181483d7dea6392b541b39 = $(`<div id="html_aa90053c05181483d7dea6392b541b39" style="width: 100.0%; height: 100.0%;">Aardla Selver (108.9 km)</div>`)[0];
+                popup_b31de44b0200ec84b325b0df676db9e9.setContent(html_aa90053c05181483d7dea6392b541b39);
+            
+        
+
+        marker_bbe5ef9c46ae1c41ab26cb4daeee1c10.bindPopup(popup_b31de44b0200ec84b325b0df676db9e9)
+        ;
+
+        
+    
+    
+                marker_bbe5ef9c46ae1c41ab26cb4daeee1c10.setIcon(icon_e6e6ea6305d0b46fa3095026108b6da8);
+            
+    
+            var marker_ce491383ff964a1fac7545201fbdf0de = L.marker(
+                [58.3824, 26.7115],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_86843a3ab6f93388a5ab7cc6ff04ae31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fff44563f41ffaf139bdc03c603e3222 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8294bb013748965f11221f1504d0e94 = $(`<div id="html_d8294bb013748965f11221f1504d0e94" style="width: 100.0%; height: 100.0%;">Anne Selver (107.44 km)</div>`)[0];
+                popup_fff44563f41ffaf139bdc03c603e3222.setContent(html_d8294bb013748965f11221f1504d0e94);
+            
+        
+
+        marker_ce491383ff964a1fac7545201fbdf0de.bindPopup(popup_fff44563f41ffaf139bdc03c603e3222)
+        ;
+
+        
+    
+    
+                marker_ce491383ff964a1fac7545201fbdf0de.setIcon(icon_86843a3ab6f93388a5ab7cc6ff04ae31);
+            
+    
+            var marker_85c6ff4472c814da68dbdeb9d2192db1 = L.marker(
+                [58.3843, 26.7258],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_9440502f64cb7947235e9dc07affb07f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c1d18a50dcd01c3902d31b076e4b9a69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_937cfa59c3c34e6ae33ccd4895b714e1 = $(`<div id="html_937cfa59c3c34e6ae33ccd4895b714e1" style="width: 100.0%; height: 100.0%;">Jaamamõisa Selver (107.94 km)</div>`)[0];
+                popup_c1d18a50dcd01c3902d31b076e4b9a69.setContent(html_937cfa59c3c34e6ae33ccd4895b714e1);
+            
+        
+
+        marker_85c6ff4472c814da68dbdeb9d2192db1.bindPopup(popup_c1d18a50dcd01c3902d31b076e4b9a69)
+        ;
+
+        
+    
+    
+                marker_85c6ff4472c814da68dbdeb9d2192db1.setIcon(icon_9440502f64cb7947235e9dc07affb07f);
+            
+    
+            var marker_1616a73f323286caa1175c2ff7551c65 = L.marker(
+                [58.3819, 26.7094],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_52f8675d70e156007e6c06cc376dca4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aad588bef1e6417c60431e75ce682582 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76092514e438777a4e8c7b74789b646c = $(`<div id="html_76092514e438777a4e8c7b74789b646c" style="width: 100.0%; height: 100.0%;">Raatuse Selver ABC (107.38 km)</div>`)[0];
+                popup_aad588bef1e6417c60431e75ce682582.setContent(html_76092514e438777a4e8c7b74789b646c);
+            
+        
+
+        marker_1616a73f323286caa1175c2ff7551c65.bindPopup(popup_aad588bef1e6417c60431e75ce682582)
+        ;
+
+        
+    
+    
+                marker_1616a73f323286caa1175c2ff7551c65.setIcon(icon_52f8675d70e156007e6c06cc376dca4f);
+            
+    
+            var marker_ccb7c430e1257bf81d890bfd857b15e3 = L.marker(
+                [58.3742, 26.7051],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_6ad791a78f0e99d7c2e7195cf1f600cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94c4a14042f0e6d6a1132ade65a69342 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54b1158d9754c70970fbf0038e299ff3 = $(`<div id="html_54b1158d9754c70970fbf0038e299ff3" style="width: 100.0%; height: 100.0%;">Ringtee Selver (107.75 km)</div>`)[0];
+                popup_94c4a14042f0e6d6a1132ade65a69342.setContent(html_54b1158d9754c70970fbf0038e299ff3);
+            
+        
+
+        marker_ccb7c430e1257bf81d890bfd857b15e3.bindPopup(popup_94c4a14042f0e6d6a1132ade65a69342)
+        ;
+
+        
+    
+    
+                marker_ccb7c430e1257bf81d890bfd857b15e3.setIcon(icon_6ad791a78f0e99d7c2e7195cf1f600cd);
+            
+    
+            var marker_9a693854934f4b3e0cce2e7fdcc1b9d7 = L.marker(
+                [58.3869, 26.7336],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_1d9c9d25578e11d310952ea07577eb83 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e92c714eaee3d0aa4888e9c63426eae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_303d7381fdcbbb3dad8e10db901286b0 = $(`<div id="html_303d7381fdcbbb3dad8e10db901286b0" style="width: 100.0%; height: 100.0%;">Rukkilille Selver (108.1 km)</div>`)[0];
+                popup_4e92c714eaee3d0aa4888e9c63426eae.setContent(html_303d7381fdcbbb3dad8e10db901286b0);
+            
+        
+
+        marker_9a693854934f4b3e0cce2e7fdcc1b9d7.bindPopup(popup_4e92c714eaee3d0aa4888e9c63426eae)
+        ;
+
+        
+    
+    
+                marker_9a693854934f4b3e0cce2e7fdcc1b9d7.setIcon(icon_1d9c9d25578e11d310952ea07577eb83);
+            
+    
+            var marker_bba630e921ef1dc6eb4448246a4ddf2d = L.marker(
+                [58.3686, 26.7046],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_f9d0265e48b02791966469fb1ff95190 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0af8f87ce39e4c55071493cd4a94fe98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9bac6438d6f5f1b8f3456fb7432085d = $(`<div id="html_c9bac6438d6f5f1b8f3456fb7432085d" style="width: 100.0%; height: 100.0%;">Sõbra Selver (108.13 km)</div>`)[0];
+                popup_0af8f87ce39e4c55071493cd4a94fe98.setContent(html_c9bac6438d6f5f1b8f3456fb7432085d);
+            
+        
+
+        marker_bba630e921ef1dc6eb4448246a4ddf2d.bindPopup(popup_0af8f87ce39e4c55071493cd4a94fe98)
+        ;
+
+        
+    
+    
+                marker_bba630e921ef1dc6eb4448246a4ddf2d.setIcon(icon_f9d0265e48b02791966469fb1ff95190);
+            
+    
+            var marker_8748a8affca39b7484440abb12f35f98 = L.marker(
+                [58.3905, 26.6844],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_1af7a4d5cfc501d06972136cbd7b9796 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae4d784c1a9406dea0dd7addb9da253b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da172ee4e62f9de42023907ab71c3756 = $(`<div id="html_da172ee4e62f9de42023907ab71c3756" style="width: 100.0%; height: 100.0%;">Vahi Selver (105.65 km)</div>`)[0];
+                popup_ae4d784c1a9406dea0dd7addb9da253b.setContent(html_da172ee4e62f9de42023907ab71c3756);
+            
+        
+
+        marker_8748a8affca39b7484440abb12f35f98.bindPopup(popup_ae4d784c1a9406dea0dd7addb9da253b)
+        ;
+
+        
+    
+    
+                marker_8748a8affca39b7484440abb12f35f98.setIcon(icon_1af7a4d5cfc501d06972136cbd7b9796);
+            
+    
+            var marker_816656b0aa7864eacaa40fc20e7dad02 = L.marker(
+                [58.3697, 26.7207],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_1bd9711479bfe489060a63c01513dad2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_646a8a275a439f9918de8ed5a97a149a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2f37ee05cf0128236caaefa2bec7fb5 = $(`<div id="html_a2f37ee05cf0128236caaefa2bec7fb5" style="width: 100.0%; height: 100.0%;">Veeriku Selver (108.76 km)</div>`)[0];
+                popup_646a8a275a439f9918de8ed5a97a149a.setContent(html_a2f37ee05cf0128236caaefa2bec7fb5);
+            
+        
+
+        marker_816656b0aa7864eacaa40fc20e7dad02.bindPopup(popup_646a8a275a439f9918de8ed5a97a149a)
+        ;
+
+        
+    
+    
+                marker_816656b0aa7864eacaa40fc20e7dad02.setIcon(icon_1bd9711479bfe489060a63c01513dad2);
+            
+    
+            var marker_3ed22891a1acd2dc0840c6c5ee4dc560 = L.marker(
+                [58.3745, 26.7128],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_c64c693ac83c90787fbd9f655aba222d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20fab5f7709faff781a34c21fc50e6c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_682ca9c59542325d62f1c46c74dae105 = $(`<div id="html_682ca9c59542325d62f1c46c74dae105" style="width: 100.0%; height: 100.0%;">Ümera Selver ABC (108.07 km)</div>`)[0];
+                popup_20fab5f7709faff781a34c21fc50e6c9.setContent(html_682ca9c59542325d62f1c46c74dae105);
+            
+        
+
+        marker_3ed22891a1acd2dc0840c6c5ee4dc560.bindPopup(popup_20fab5f7709faff781a34c21fc50e6c9)
+        ;
+
+        
+    
+    
+                marker_3ed22891a1acd2dc0840c6c5ee4dc560.setIcon(icon_c64c693ac83c90787fbd9f655aba222d);
+            
+    
+            var marker_c5811aebbf1d445365c835ca5ec32629 = L.marker(
+                [59.3796, 28.179],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_3354e2f109df74e98428d9c8ad274a90 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_06927dfe8ad1c1cc3a2a7c74279bd127 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00ebcfa77a002dd65f74da60161df7b7 = $(`<div id="html_00ebcfa77a002dd65f74da60161df7b7" style="width: 100.0%; height: 100.0%;">Astri Selver (170.3 km)</div>`)[0];
+                popup_06927dfe8ad1c1cc3a2a7c74279bd127.setContent(html_00ebcfa77a002dd65f74da60161df7b7);
+            
+        
+
+        marker_c5811aebbf1d445365c835ca5ec32629.bindPopup(popup_06927dfe8ad1c1cc3a2a7c74279bd127)
+        ;
+
+        
+    
+    
+                marker_c5811aebbf1d445365c835ca5ec32629.setIcon(icon_3354e2f109df74e98428d9c8ad274a90);
+            
+    
+            var marker_fbdd981f9e6c7146034b7a468fbdba3a = L.marker(
+                [58.3639, 25.5944],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_71d84dbd5086abeb0c2b9c0d3cdd450b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_906601633d3658092b623ac98c3adb09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21858cb23717df82da2273e72c23da6e = $(`<div id="html_21858cb23717df82da2273e72c23da6e" style="width: 100.0%; height: 100.0%;">Centrumi Selver (73.02 km)</div>`)[0];
+                popup_906601633d3658092b623ac98c3adb09.setContent(html_21858cb23717df82da2273e72c23da6e);
+            
+        
+
+        marker_fbdd981f9e6c7146034b7a468fbdba3a.bindPopup(popup_906601633d3658092b623ac98c3adb09)
+        ;
+
+        
+    
+    
+                marker_fbdd981f9e6c7146034b7a468fbdba3a.setIcon(icon_71d84dbd5086abeb0c2b9c0d3cdd450b);
+            
+    
+            var marker_650909d591a0f85e54c49ea7e95182a2 = L.marker(
+                [58.8725, 22.5833],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_e5133aff48ac417f2ace7d542e69b144 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2cbb3c41d7dcd64e4e7586b665f11451 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab93a3faab3102f3d9d8fd3b66938963 = $(`<div id="html_ab93a3faab3102f3d9d8fd3b66938963" style="width: 100.0%; height: 100.0%;">Hiiumaa Selver (155.46 km)</div>`)[0];
+                popup_2cbb3c41d7dcd64e4e7586b665f11451.setContent(html_ab93a3faab3102f3d9d8fd3b66938963);
+            
+        
+
+        marker_650909d591a0f85e54c49ea7e95182a2.bindPopup(popup_2cbb3c41d7dcd64e4e7586b665f11451)
+        ;
+
+        
+    
+    
+                marker_650909d591a0f85e54c49ea7e95182a2.setIcon(icon_e5133aff48ac417f2ace7d542e69b144);
+            
+    
+            var marker_b4d99092866185c394c45c584ba5bb5a = L.marker(
+                [58.7489, 26.3931],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_46e6cb792dd7b6d0c9e8227e57792f6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dce9d36be89d4ee6cfeda37c8a69329e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_daf237a7d67b3bd5a00f4b2e12d402b4 = $(`<div id="html_daf237a7d67b3bd5a00f4b2e12d402b4" style="width: 100.0%; height: 100.0%;">Jõgeva Selver (69.72 km)</div>`)[0];
+                popup_dce9d36be89d4ee6cfeda37c8a69329e.setContent(html_daf237a7d67b3bd5a00f4b2e12d402b4);
+            
+        
+
+        marker_b4d99092866185c394c45c584ba5bb5a.bindPopup(popup_dce9d36be89d4ee6cfeda37c8a69329e)
+        ;
+
+        
+    
+    
+                marker_b4d99092866185c394c45c584ba5bb5a.setIcon(icon_46e6cb792dd7b6d0c9e8227e57792f6f);
+            
+    
+            var marker_ba5a2f72612b53239fe7f77817f432b4 = L.marker(
+                [59.3586, 27.4123],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_7c20759ca0f82598d942cedcf760e0fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_714216a3da28ee082e815ec4ab0a2140 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89d7b166c4f78c1d4211b9eef382ed09 = $(`<div id="html_89d7b166c4f78c1d4211b9eef382ed09" style="width: 100.0%; height: 100.0%;">Jõhvi Selver (127.75 km)</div>`)[0];
+                popup_714216a3da28ee082e815ec4ab0a2140.setContent(html_89d7b166c4f78c1d4211b9eef382ed09);
+            
+        
+
+        marker_ba5a2f72612b53239fe7f77817f432b4.bindPopup(popup_714216a3da28ee082e815ec4ab0a2140)
+        ;
+
+        
+    
+    
+                marker_ba5a2f72612b53239fe7f77817f432b4.setIcon(icon_7c20759ca0f82598d942cedcf760e0fe);
+            
+    
+            var marker_b983592c4e9c8835679bd8230b35b016 = L.marker(
+                [57.8489, 26.9931],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_9b8b21fad3b0e801d617e4a2d08cd596 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ceaebf3d87bf91034def229b7646f3b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87b13da697f391a038ef7661c053fa73 = $(`<div id="html_87b13da697f391a038ef7661c053fa73" style="width: 100.0%; height: 100.0%;">Kagukeskuse Selver (162.21 km)</div>`)[0];
+                popup_ceaebf3d87bf91034def229b7646f3b3.setContent(html_87b13da697f391a038ef7661c053fa73);
+            
+        
+
+        marker_b983592c4e9c8835679bd8230b35b016.bindPopup(popup_ceaebf3d87bf91034def229b7646f3b3)
+        ;
+
+        
+    
+    
+                marker_b983592c4e9c8835679bd8230b35b016.setIcon(icon_9b8b21fad3b0e801d617e4a2d08cd596);
+            
+    
+            var marker_c3c1197a7b0b53aec2288387987cbd5a = L.marker(
+                [59.3033, 24.4139],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_92cbe67a0d7009e427ffeb3bc5185b74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6dc70a12fc0dc62ba57ad2ca744f1b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1537a83fd3ac4c29ff9bb3948fe26186 = $(`<div id="html_1537a83fd3ac4c29ff9bb3948fe26186" style="width: 100.0%; height: 100.0%;">Keila Selver (59.87 km)</div>`)[0];
+                popup_e6dc70a12fc0dc62ba57ad2ca744f1b9.setContent(html_1537a83fd3ac4c29ff9bb3948fe26186);
+            
+        
+
+        marker_c3c1197a7b0b53aec2288387987cbd5a.bindPopup(popup_e6dc70a12fc0dc62ba57ad2ca744f1b9)
+        ;
+
+        
+    
+    
+                marker_c3c1197a7b0b53aec2288387987cbd5a.setIcon(icon_92cbe67a0d7009e427ffeb3bc5185b74);
+            
+    
+            var marker_afde5c1ef579afea683da25463fd96c2 = L.marker(
+                [59.3986, 27.2731],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_5a08224daad6d2a694105b4991a3a107 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c0e674ec766f61fd5238fe751304480 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5103ea865468f441dcba1e1c9bdac22 = $(`<div id="html_e5103ea865468f441dcba1e1c9bdac22" style="width: 100.0%; height: 100.0%;">Kohtla-Järve Selver (121.72 km)</div>`)[0];
+                popup_5c0e674ec766f61fd5238fe751304480.setContent(html_e5103ea865468f441dcba1e1c9bdac22);
+            
+        
+
+        marker_afde5c1ef579afea683da25463fd96c2.bindPopup(popup_5c0e674ec766f61fd5238fe751304480)
+        ;
+
+        
+    
+    
+                marker_afde5c1ef579afea683da25463fd96c2.setIcon(icon_5a08224daad6d2a694105b4991a3a107);
+            
+    
+            var marker_3e8ab03a6f2edc24e3465d24a034a802 = L.marker(
+                [59.3511, 26.3556],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_1a9ce8b6e4207d8eca9397d2dad656d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60fa9237707dc436df46cdb4abe9b341 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea3d743ff27f3b8b49deac7d2f4fb0d4 = $(`<div id="html_ea3d743ff27f3b8b49deac7d2f4fb0d4" style="width: 100.0%; height: 100.0%;">Krooni Selver (72.57 km)</div>`)[0];
+                popup_60fa9237707dc436df46cdb4abe9b341.setContent(html_ea3d743ff27f3b8b49deac7d2f4fb0d4);
+            
+        
+
+        marker_3e8ab03a6f2edc24e3465d24a034a802.bindPopup(popup_60fa9237707dc436df46cdb4abe9b341)
+        ;
+
+        
+    
+    
+                marker_3e8ab03a6f2edc24e3465d24a034a802.setIcon(icon_1a9ce8b6e4207d8eca9397d2dad656d9);
+            
+    
+            var marker_e5eff3e5c96a3d436c287882bf5ffe31 = L.marker(
+                [59.355, 24.889],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_677bc96eebf22bd9b7a32aa49b92ea38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1447d1724f2729ab5288e72222427b2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f0108824869f2f2195d976c2181cd2f = $(`<div id="html_9f0108824869f2f2195d976c2181cd2f" style="width: 100.0%; height: 100.0%;">Kurna Selver (45.36 km)</div>`)[0];
+                popup_1447d1724f2729ab5288e72222427b2a.setContent(html_9f0108824869f2f2195d976c2181cd2f);
+            
+        
+
+        marker_e5eff3e5c96a3d436c287882bf5ffe31.bindPopup(popup_1447d1724f2729ab5288e72222427b2a)
+        ;
+
+        
+    
+    
+                marker_e5eff3e5c96a3d436c287882bf5ffe31.setIcon(icon_677bc96eebf22bd9b7a32aa49b92ea38);
+            
+    
+            var marker_5b377aeb3efb438a5f817a634a4b52c6 = L.marker(
+                [58.3833, 24.5139],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_0157b7dc0dd2ba9ede14a739630f16b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2413b66ac4d673164cee8e33ea76d356 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_100fb23b81875d8b4b35d47dc9d30ba9 = $(`<div id="html_100fb23b81875d8b4b35d47dc9d30ba9" style="width: 100.0%; height: 100.0%;">Laine Selver ABC (81.69 km)</div>`)[0];
+                popup_2413b66ac4d673164cee8e33ea76d356.setContent(html_100fb23b81875d8b4b35d47dc9d30ba9);
+            
+        
+
+        marker_5b377aeb3efb438a5f817a634a4b52c6.bindPopup(popup_2413b66ac4d673164cee8e33ea76d356)
+        ;
+
+        
+    
+    
+                marker_5b377aeb3efb438a5f817a634a4b52c6.setIcon(icon_0157b7dc0dd2ba9ede14a739630f16b6);
+            
+    
+            var marker_118062fc854b5bd3368df38e59a682d9 = L.marker(
+                [59.3947, 24.2342],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_cb3caf3b948b72e975cbfc8d8d605ab4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_45cd1ef150f7082b09ecc0105cfd742e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca77d23d85194c2018ba911f8c6a7071 = $(`<div id="html_ca77d23d85194c2018ba911f8c6a7071" style="width: 100.0%; height: 100.0%;">Laulasmaa Selver ABC (74.04 km)</div>`)[0];
+                popup_45cd1ef150f7082b09ecc0105cfd742e.setContent(html_ca77d23d85194c2018ba911f8c6a7071);
+            
+        
+
+        marker_118062fc854b5bd3368df38e59a682d9.bindPopup(popup_45cd1ef150f7082b09ecc0105cfd742e)
+        ;
+
+        
+    
+    
+                marker_118062fc854b5bd3368df38e59a682d9.setIcon(icon_cb3caf3b948b72e975cbfc8d8d605ab4);
+            
+    
+            var marker_b7e0a8b396b8ca8d651d9b893f105163 = L.marker(
+                [58.3742, 24.5131],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_d24f170ecdae2aadc6ca8ef592e1ca26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4aa7f62c154110342fe0e71f194f9cbc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10b0aad17a96a2ed4ff786474082a38e = $(`<div id="html_10b0aad17a96a2ed4ff786474082a38e" style="width: 100.0%; height: 100.0%;">Mai Selver (82.57 km)</div>`)[0];
+                popup_4aa7f62c154110342fe0e71f194f9cbc.setContent(html_10b0aad17a96a2ed4ff786474082a38e);
+            
+        
+
+        marker_b7e0a8b396b8ca8d651d9b893f105163.bindPopup(popup_4aa7f62c154110342fe0e71f194f9cbc)
+        ;
+
+        
+    
+    
+                marker_b7e0a8b396b8ca8d651d9b893f105163.setIcon(icon_d24f170ecdae2aadc6ca8ef592e1ca26);
+            
+    
+            var marker_5864f25991d2fbf41e0d7f303641367f = L.marker(
+                [58.3633, 25.5975],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_2d1921c0bf08edb7bde86e7622f2aa73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2fcaa049a145bddc8bcd1fbbf838df6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4883e09c8db8084496f182e720f4b383 = $(`<div id="html_4883e09c8db8084496f182e720f4b383" style="width: 100.0%; height: 100.0%;">Männimäe Selver (73.13 km)</div>`)[0];
+                popup_2fcaa049a145bddc8bcd1fbbf838df6d.setContent(html_4883e09c8db8084496f182e720f4b383);
+            
+        
+
+        marker_5864f25991d2fbf41e0d7f303641367f.bindPopup(popup_2fcaa049a145bddc8bcd1fbbf838df6d)
+        ;
+
+        
+    
+    
+                marker_5864f25991d2fbf41e0d7f303641367f.setIcon(icon_2d1921c0bf08edb7bde86e7622f2aa73);
+            
+    
+            var marker_50f03e318e3665ebdd7225c4f0338b7c = L.marker(
+                [58.3789, 24.5123],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_867d6b56f5d41eeeb0a035c53625b010 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_54ee511789e467a06205f9f8a06c4eed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7612d645fe2ca4a9f7fc59a1df996d80 = $(`<div id="html_7612d645fe2ca4a9f7fc59a1df996d80" style="width: 100.0%; height: 100.0%;">Oja Selver ABC (82.15 km)</div>`)[0];
+                popup_54ee511789e467a06205f9f8a06c4eed.setContent(html_7612d645fe2ca4a9f7fc59a1df996d80);
+            
+        
+
+        marker_50f03e318e3665ebdd7225c4f0338b7c.bindPopup(popup_54ee511789e467a06205f9f8a06c4eed)
+        ;
+
+        
+    
+    
+                marker_50f03e318e3665ebdd7225c4f0338b7c.setIcon(icon_867d6b56f5d41eeeb0a035c53625b010);
+            
+    
+            var marker_8b2aebcae1f81ff7b76f65eeb80d983f = L.marker(
+                [58.885, 25.56],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_4580e1de391f52de3d1869b2597bf2bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e957e01376b86ab355128f493377b57a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5023808ff4db950a99af0d3403c9b332 = $(`<div id="html_5023808ff4db950a99af0d3403c9b332" style="width: 100.0%; height: 100.0%;">Paide Selver (20.46 km)</div>`)[0];
+                popup_e957e01376b86ab355128f493377b57a.setContent(html_5023808ff4db950a99af0d3403c9b332);
+            
+        
+
+        marker_8b2aebcae1f81ff7b76f65eeb80d983f.bindPopup(popup_e957e01376b86ab355128f493377b57a)
+        ;
+
+        
+    
+    
+                marker_8b2aebcae1f81ff7b76f65eeb80d983f.setIcon(icon_4580e1de391f52de3d1869b2597bf2bc);
+            
+    
+            var marker_146592bf605c6fc23af733924cc3b937 = L.marker(
+                [59.3933, 24.8544],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_a4dc763b545d4971c748600cf2a474bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_170d506e14d97c58cc540228760f8dfe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d84193798510e70d5ff07d1c6495110d = $(`<div id="html_d84193798510e70d5ff07d1c6495110d" style="width: 100.0%; height: 100.0%;">Peetri Selver (50.03 km)</div>`)[0];
+                popup_170d506e14d97c58cc540228760f8dfe.setContent(html_d84193798510e70d5ff07d1c6495110d);
+            
+        
+
+        marker_146592bf605c6fc23af733924cc3b937.bindPopup(popup_170d506e14d97c58cc540228760f8dfe)
+        ;
+
+        
+    
+    
+                marker_146592bf605c6fc23af733924cc3b937.setIcon(icon_a4dc763b545d4971c748600cf2a474bc);
+            
+    
+            var marker_d37678877c530d6304a71be0a6594df0 = L.marker(
+                [58.6525, 25.97],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_96001bb6ff0638ec54b563153882aa7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_09c98a00226492b1ab957b67fbd0bd8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8543b14610bf6aa1f47d4be7144ef5f0 = $(`<div id="html_8543b14610bf6aa1f47d4be7144ef5f0" style="width: 100.0%; height: 100.0%;">Põltsamaa Selver (55.35 km)</div>`)[0];
+                popup_09c98a00226492b1ab957b67fbd0bd8f.setContent(html_8543b14610bf6aa1f47d4be7144ef5f0);
+            
+        
+
+        marker_d37678877c530d6304a71be0a6594df0.bindPopup(popup_09c98a00226492b1ab957b67fbd0bd8f)
+        ;
+
+        
+    
+    
+                marker_d37678877c530d6304a71be0a6594df0.setIcon(icon_96001bb6ff0638ec54b563153882aa7e);
+            
+    
+            var marker_259e23374f606b1344bce7f6833e919e = L.marker(
+                [58.0611, 27.0694],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_ee433788e2aaa37e5074fb8ac5e7f163 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2e64aac5eaa17c7b3f81f6d4d60dc64d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec26d86bcb4c441136e3b6370f226a4c = $(`<div id="html_ec26d86bcb4c441136e3b6370f226a4c" style="width: 100.0%; height: 100.0%;">Põlva Selver (147.2 km)</div>`)[0];
+                popup_2e64aac5eaa17c7b3f81f6d4d60dc64d.setContent(html_ec26d86bcb4c441136e3b6370f226a4c);
+            
+        
+
+        marker_259e23374f606b1344bce7f6833e919e.bindPopup(popup_2e64aac5eaa17c7b3f81f6d4d60dc64d)
+        ;
+
+        
+    
+    
+                marker_259e23374f606b1344bce7f6833e919e.setIcon(icon_ee433788e2aaa37e5074fb8ac5e7f163);
+            
+    
+            var marker_14e8104ea7740a960941e6aa95856010 = L.marker(
+                [58.385, 24.4975],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_d8c56c8235478886597f7d145dc12661 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f13371d2f053984329a267324e31a6cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c2dc1520a6ef4061502382b525f1988 = $(`<div id="html_2c2dc1520a6ef4061502382b525f1988" style="width: 100.0%; height: 100.0%;">Pärnu Keskuse Selver (82.05 km)</div>`)[0];
+                popup_f13371d2f053984329a267324e31a6cf.setContent(html_2c2dc1520a6ef4061502382b525f1988);
+            
+        
+
+        marker_14e8104ea7740a960941e6aa95856010.bindPopup(popup_f13371d2f053984329a267324e31a6cf)
+        ;
+
+        
+    
+    
+                marker_14e8104ea7740a960941e6aa95856010.setIcon(icon_d8c56c8235478886597f7d145dc12661);
+            
+    
+            var marker_23abb2340912c880428e88677a9ecbec = L.marker(
+                [58.3911, 26.7522],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_9f16e31b2939e7bdea6e5c1ef100967f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cac2d74e950df0187e0dcac546da43ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56eb41e7df0e01ac7f0daaf2fedcf4af = $(`<div id="html_56eb41e7df0e01ac7f0daaf2fedcf4af" style="width: 100.0%; height: 100.0%;">Raadi Selver (108.64 km)</div>`)[0];
+                popup_cac2d74e950df0187e0dcac546da43ec.setContent(html_56eb41e7df0e01ac7f0daaf2fedcf4af);
+            
+        
+
+        marker_23abb2340912c880428e88677a9ecbec.bindPopup(popup_cac2d74e950df0187e0dcac546da43ec)
+        ;
+
+        
+    
+    
+                marker_23abb2340912c880428e88677a9ecbec.setIcon(icon_9f16e31b2939e7bdea6e5c1ef100967f);
+            
+    
+            var marker_dc7aa43ba189da8fd29a30c6f671aee7 = L.marker(
+                [58.3847, 24.5183],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_8cbf12353c7aec0cddb813aa44a47207 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea119a938c1a5565988f09f3fdaa9992 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4544ae8679e203c22a45ad5d61e16810 = $(`<div id="html_4544ae8679e203c22a45ad5d61e16810" style="width: 100.0%; height: 100.0%;">Ranna Selver ABC (81.42 km)</div>`)[0];
+                popup_ea119a938c1a5565988f09f3fdaa9992.setContent(html_4544ae8679e203c22a45ad5d61e16810);
+            
+        
+
+        marker_dc7aa43ba189da8fd29a30c6f671aee7.bindPopup(popup_ea119a938c1a5565988f09f3fdaa9992)
+        ;
+
+        
+    
+    
+                marker_dc7aa43ba189da8fd29a30c6f671aee7.setIcon(icon_8cbf12353c7aec0cddb813aa44a47207);
+            
+    
+            var marker_e1886279a0b0e07fd21896d56f355b1b = L.marker(
+                [58.9392, 23.5411],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_2215d950da51cbf34c14750490340f4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd1f9ca47ad7d11cf87a67acc756fc73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7dc9131fb4b0900385a401078593b56b = $(`<div id="html_7dc9131fb4b0900385a401078593b56b" style="width: 100.0%; height: 100.0%;">Rannarootsi Selver (100.0 km)</div>`)[0];
+                popup_bd1f9ca47ad7d11cf87a67acc756fc73.setContent(html_7dc9131fb4b0900385a401078593b56b);
+            
+        
+
+        marker_e1886279a0b0e07fd21896d56f355b1b.bindPopup(popup_bd1f9ca47ad7d11cf87a67acc756fc73)
+        ;
+
+        
+    
+    
+                marker_e1886279a0b0e07fd21896d56f355b1b.setIcon(icon_2215d950da51cbf34c14750490340f4f);
+            
+    
+            var marker_6117512a19b011b8e18746cf2e2956a3 = L.marker(
+                [58.9997, 24.7981],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_c64995cc803b1ffd5302af147571ad00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_694156599222d974c79436febdb55f23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5130f4add6501df936693c8ed661ede5 = $(`<div id="html_5130f4add6501df936693c8ed661ede5" style="width: 100.0%; height: 100.0%;">Rapla Selver (27.7 km)</div>`)[0];
+                popup_694156599222d974c79436febdb55f23.setContent(html_5130f4add6501df936693c8ed661ede5);
+            
+        
+
+        marker_6117512a19b011b8e18746cf2e2956a3.bindPopup(popup_694156599222d974c79436febdb55f23)
+        ;
+
+        
+    
+    
+                marker_6117512a19b011b8e18746cf2e2956a3.setIcon(icon_c64995cc803b1ffd5302af147571ad00);
+            
+    
+            var marker_74c8a256f4517a453626b840adea9c5d = L.marker(
+                [58.2522, 22.4861],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_cfff6c5e3ad3b0c1f5c9e5a33bb18a0f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a28c43d5743db2e2dad86fa9fd36f8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b827dbc5c970f6974fe1cf3d486d1c46 = $(`<div id="html_b827dbc5c970f6974fe1cf3d486d1c46" style="width: 100.0%; height: 100.0%;">Saare Selver (181.94 km)</div>`)[0];
+                popup_7a28c43d5743db2e2dad86fa9fd36f8e.setContent(html_b827dbc5c970f6974fe1cf3d486d1c46);
+            
+        
+
+        marker_74c8a256f4517a453626b840adea9c5d.bindPopup(popup_7a28c43d5743db2e2dad86fa9fd36f8e)
+        ;
+
+        
+    
+    
+                marker_74c8a256f4517a453626b840adea9c5d.setIcon(icon_cfff6c5e3ad3b0c1f5c9e5a33bb18a0f);
+            
+    
+            var marker_73867a03e9b13fb417eaf6baafdc2b85 = L.marker(
+                [59.3025, 24.6575],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_be01727dce27687065badc55b985259f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5d7398c930ad1d55ee0e35c9d89ff41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5e810811fb213b2621a3a9edcbd2bce = $(`<div id="html_f5e810811fb213b2621a3a9edcbd2bce" style="width: 100.0%; height: 100.0%;">Saku Selver (48.96 km)</div>`)[0];
+                popup_a5d7398c930ad1d55ee0e35c9d89ff41.setContent(html_f5e810811fb213b2621a3a9edcbd2bce);
+            
+        
+
+        marker_73867a03e9b13fb417eaf6baafdc2b85.bindPopup(popup_a5d7398c930ad1d55ee0e35c9d89ff41)
+        ;
+
+        
+    
+    
+                marker_73867a03e9b13fb417eaf6baafdc2b85.setIcon(icon_be01727dce27687065badc55b985259f);
+            
+    
+            var marker_a174c7a34b44b717d1b53b1ad0cfcbb2 = L.marker(
+                [58.385, 24.495],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_6ac86e487fcaa6b41796fda47179302d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1e62ee56474ad0e5385fdb2d1cbeb542 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20f1ecb2ba16a57aad8f0ac006c1ede7 = $(`<div id="html_20f1ecb2ba16a57aad8f0ac006c1ede7" style="width: 100.0%; height: 100.0%;">Suurejõe Selver (82.13 km)</div>`)[0];
+                popup_1e62ee56474ad0e5385fdb2d1cbeb542.setContent(html_20f1ecb2ba16a57aad8f0ac006c1ede7);
+            
+        
+
+        marker_a174c7a34b44b717d1b53b1ad0cfcbb2.bindPopup(popup_1e62ee56474ad0e5385fdb2d1cbeb542)
+        ;
+
+        
+    
+    
+                marker_a174c7a34b44b717d1b53b1ad0cfcbb2.setIcon(icon_6ac86e487fcaa6b41796fda47179302d);
+            
+    
+            var marker_f1c984bffb7eb11af90e70dceae4083c = L.marker(
+                [59.4375, 24.5375],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_17ed7daa904a9361636377ecc5089030 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_efae7da27930d75101cc38886f535073 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7308467c3436b5c418b6c5f57a7de81 = $(`<div id="html_e7308467c3436b5c418b6c5f57a7de81" style="width: 100.0%; height: 100.0%;">Tabasalu Selver (64.49 km)</div>`)[0];
+                popup_efae7da27930d75101cc38886f535073.setContent(html_e7308467c3436b5c418b6c5f57a7de81);
+            
+        
+
+        marker_f1c984bffb7eb11af90e70dceae4083c.bindPopup(popup_efae7da27930d75101cc38886f535073)
+        ;
+
+        
+    
+    
+                marker_f1c984bffb7eb11af90e70dceae4083c.setIcon(icon_17ed7daa904a9361636377ecc5089030);
+            
+    
+            var marker_cef971e450e08d6c78c93627a3f8c91e = L.marker(
+                [57.7775, 26.0475],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_09aa6343b7a76f297c76180da632f566 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b99d1c7e852c3ec2b9a214a64ddfe917 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfdd2498fbab6c8f2f38dd7790193fa7 = $(`<div id="html_dfdd2498fbab6c8f2f38dd7790193fa7" style="width: 100.0%; height: 100.0%;">Valga Selver (143.09 km)</div>`)[0];
+                popup_b99d1c7e852c3ec2b9a214a64ddfe917.setContent(html_dfdd2498fbab6c8f2f38dd7790193fa7);
+            
+        
+
+        marker_cef971e450e08d6c78c93627a3f8c91e.bindPopup(popup_b99d1c7e852c3ec2b9a214a64ddfe917)
+        ;
+
+        
+    
+    
+                marker_cef971e450e08d6c78c93627a3f8c91e.setIcon(icon_09aa6343b7a76f297c76180da632f566);
+            
+    
+            var marker_84494aa5969ddcadabd74e938ad14e3c = L.marker(
+                [58.3842, 24.4958],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_ab77910e6ce988a052ad3d4298c22d8c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b9e2513d01752eb755b92fe8a91e85a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dce44fa1ded869b38d5b66d1c2b7fbaa = $(`<div id="html_dce44fa1ded869b38d5b66d1c2b7fbaa" style="width: 100.0%; height: 100.0%;">Vana-Pärnu Selver ABC (82.18 km)</div>`)[0];
+                popup_7b9e2513d01752eb755b92fe8a91e85a.setContent(html_dce44fa1ded869b38d5b66d1c2b7fbaa);
+            
+        
+
+        marker_84494aa5969ddcadabd74e938ad14e3c.bindPopup(popup_7b9e2513d01752eb755b92fe8a91e85a)
+        ;
+
+        
+    
+    
+                marker_84494aa5969ddcadabd74e938ad14e3c.setIcon(icon_ab77910e6ce988a052ad3d4298c22d8c);
+            
+    
+            var marker_b0dae1827a2afee3e33c5b187574fcbf = L.marker(
+                [59.3561, 24.645],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_3950a0bd013aa596e82ce1674f2c6a3c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ec58e5dafbf6e0dc78862cb8f32b6f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83a7368b93a141577292f917ec466215 = $(`<div id="html_83a7368b93a141577292f917ec466215" style="width: 100.0%; height: 100.0%;">Veskitammi Selver ABC (53.69 km)</div>`)[0];
+                popup_5ec58e5dafbf6e0dc78862cb8f32b6f1.setContent(html_83a7368b93a141577292f917ec466215);
+            
+        
+
+        marker_b0dae1827a2afee3e33c5b187574fcbf.bindPopup(popup_5ec58e5dafbf6e0dc78862cb8f32b6f1)
+        ;
+
+        
+    
+    
+                marker_b0dae1827a2afee3e33c5b187574fcbf.setIcon(icon_3950a0bd013aa596e82ce1674f2c6a3c);
+            
+    
+            var marker_0cde8e2c3f21c497f8d7a8d546f665cf = L.marker(
+                [59.5092, 24.8306],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_be61e1871ff1d1b6b6f7f13fe5e556f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b251ae586782ffe10242ac2d7fb30363 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b176dd903fb62e8aa3070f7ffbda3055 = $(`<div id="html_b176dd903fb62e8aa3070f7ffbda3055" style="width: 100.0%; height: 100.0%;">Viimsi Selver (62.14 km)</div>`)[0];
+                popup_b251ae586782ffe10242ac2d7fb30363.setContent(html_b176dd903fb62e8aa3070f7ffbda3055);
+            
+        
+
+        marker_0cde8e2c3f21c497f8d7a8d546f665cf.bindPopup(popup_b251ae586782ffe10242ac2d7fb30363)
+        ;
+
+        
+    
+    
+                marker_0cde8e2c3f21c497f8d7a8d546f665cf.setIcon(icon_be61e1871ff1d1b6b6f7f13fe5e556f7);
+            
+    
+            var marker_b39fd594e391c7c4bb0babab0625a09c = L.marker(
+                [59.3792, 28.1797],
+                {
+}
+            ).addTo(map_89c4c61839064fbc1ce4807123c17de0);
+        
+    
+            var icon_1ad249c802b3b9b0c08fc40e88f77e70 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a0d676e9a96f7c3f4a7d9bfeb4cfa21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b2d016833c6b06e9c5cbc90e12a4625 = $(`<div id="html_4b2d016833c6b06e9c5cbc90e12a4625" style="width: 100.0%; height: 100.0%;">Ülejõe Selver (170.33 km)</div>`)[0];
+                popup_4a0d676e9a96f7c3f4a7d9bfeb4cfa21.setContent(html_4b2d016833c6b06e9c5cbc90e12a4625);
+            
+        
+
+        marker_b39fd594e391c7c4bb0babab0625a09c.bindPopup(popup_4a0d676e9a96f7c3f4a7d9bfeb4cfa21)
+        ;
+
+        
+    
+    
+                marker_b39fd594e391c7c4bb0babab0625a09c.setIcon(icon_1ad249c802b3b9b0c08fc40e88f77e70);
+            
+</script>
+</html>
